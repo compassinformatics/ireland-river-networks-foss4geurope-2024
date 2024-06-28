@@ -1,46 +1,92 @@
 <section data-markdown>
     <script type="text/template">
         ### Software
+
+        1. MapServer and SQL Server Back-end
+        2. Python web application
+        3. JavaScript Single Page Application
     </script>
 </section>
 
-<section data-markdown>
+<section data-markdown data-background="images/tech-logos.png" data-background-size="50%">
+</section>
+
+<section data-markdown data-background="images/web-editor.png">
     <script type="text/template">
-        ## Web Editor
-
-        Advantages over a desktop approach
-
-        - Permalinks for easier review and sharing
-        - Central Database
-        - Multiple Editors
+        <h2 style="color:black">Web Editor</h2>
+        <ul style="color:black">
+            <li>Permalinks for easier review and sharing</li>
+            <li>Central Database</li>
+            <li>Multiple Editors</li>
+        </ul>
     </script>
 </section>
 
-Automation
 
-- Copy features from other network
-- Extend to coastal water bodies
-cross-ha-border-1.png
-cross-ha-border-2.png
+<section data-markdown data-background="images/fastapi.png" data-background-size="70%" data-background-opacity="90%">
+    <script type="text/template">
+        <h2 style="color:black">Python Web API</h2>
+    </script>
+</section>
 
+<!--<section>
+    <img class="img-border" src="images/scikit-geometry.svg" />
+</section>-->
 
+<section>
+    <div class="image-container">
+        <img class="img-border" src="images/lake_simplified_polygon.png" style="background: none; width: 45%;" />
+        <img class="img-border" src="images/skeleton.png" style="background: none; width: 45%;" />
+    </div>
+    <h5>Automated approach to connecting flow through lakes</h5>
+</section>
 
-Requirement for sinks to drain into Coastal Water Bodies
+<section>
+    <img class="img-border" src="images/lake_polygon.png" />
+    <h5>Paths created across skeleton</h5>
+</section>
+
+<section>
+    <h4>Processing with Python and Web Sockets</h4>
+    <video class="img-border" width="800" autoplay muted loop>
+        <source src="videos/processing.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
 
 <section>
     <img class="r-stretch img-border" src="images/cascade.png" />
-    <p class="subtitle"><a href="https://github.com/compassinformatics/cascade/">Cascade</a> - a Stream Ordering Library</p>
+    <p><b>Cascade</b> - a Stream Ordering Library</p>
+
+    <div style="display: flex; align-items: center; margin-bottom: 10px; justify-content: center;">
+        <img src="images/github-mark.png" alt="GitHub" style="width: 24px; height: 24px; margin-right: 10px;">
+        <p class="subtitle"><a href="https://github.com/compassinformatics/cascade/">https://github.com/compassinformatics/cascade/</a></p>
+    </div>
 </section>
 
 <section>
     <img class="r-stretch img-border" src="images/wayfarer.png" />
     <p class="subtitle">
-        <a href="https://github.com/compassinformatics/wayfarer/">Wayfarer</a> - a library for creating and analysing
-        geospatial networks using <a href="https://networkx.org/">NetworkX</a>
-    </p>
+    <p><b>Wayfarer</b> - a library for creating and analysing geospatial networks using <a href="https://networkx.org/">NetworkX</a></p>
+
+    <div style="display: flex; align-items: center; margin-bottom: 10px; justify-content: center;">
+        <img src="images/github-mark.png" alt="GitHub" style="width: 24px; height: 24px; margin-right: 10px;">
+        <p class="subtitle"><a href="https://github.com/compassinformatics/cpsi-mapview/">https://github.com/compassinformatics/cpsi-mapview/</a></p>
+    </div>
 </section>
 
 <section>
     <img class="r-stretch img-border" src="images/cpsi-mapview.png" />
-    <p class="subtitle"><a href="https://github.com/compassinformatics/cpsi-mapview/">Compass Informatics Mapview</a></p>
+
+    <p><b>MapView</b> - a JavaScript mapping components library built on ExtJS, GeoExt, and OpenLayers</p>
+    <div style="display: flex; align-items: center; margin-bottom: 10px; justify-content: center;">
+        <img src="images/github-mark.png" alt="GitHub" style="width: 24px; height: 24px; margin-right: 10px;">
+        <p class="subtitle"><a href="https://github.com/compassinformatics/cpsi-mapview/">https://github.com/compassinformatics/cpsi-mapview/</a></p>
+    </div>
 </section>
+
+<section>
+    <img class="img-border" src="images/arcmap.png" />
+    <h5>Automated Exports to ArcMap and ArcGIS Pro</h5>
+</section>
+
