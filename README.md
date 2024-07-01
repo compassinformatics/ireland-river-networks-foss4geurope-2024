@@ -3,7 +3,7 @@
 To run locally:
 
 ```
-C:\Python310\python -m http.server --directory=D:\GitHub\ireland-river-networks-foss4geurope-2024
+C:\Python310\python -m http.server --directory=C:\GitHub\ireland-river-networks-foss4geurope-2024 8005
 ```
 
 Then:
